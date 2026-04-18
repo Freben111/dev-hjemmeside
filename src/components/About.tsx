@@ -38,7 +38,8 @@ function About() {
           </div>
           <div className="flex gap-3 mt-8">
             <a
-              href="#"
+              href="/CV_Frederik_Bengtson.pdf"
+              download
               className="px-4 py-2 rounded text-sm"
               style={{ backgroundColor: "#63b3ed", color: "#0f1117" }}
             >
