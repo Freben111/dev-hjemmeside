@@ -2,7 +2,7 @@ function About() {
   return (
     <section id="about" className="max-w-4xl mx-auto px-6 py-24">
       <p className="text-sm mb-4" style={{ color: "#63b3ed" }}>// about me</p>
-      <div className="grid grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         <div>
           <h2 className="text-3xl font-medium mb-6" style={{ color: "#f7fafc" }}>
             Who I am
@@ -30,10 +30,10 @@ function About() {
               { label: "Focus", value: "Full-stack development" },
               { label: "Status", value: "Open to work" },
             ].map(({ label, value }) => (
-              <div key={label} className="flex gap-3 text-sm">
-                <span className="w-24 shrink-0" style={{ color: "#63b3ed" }}>{label}</span>
-                <span style={{ color: "#a0aec0" }}>{value}</span>
-              </div>
+                <div key={label} className="flex gap-3 text-sm min-w-0">
+                  <span className="w-24 shrink-0" style={{ color: "#63b3ed" }}>{label}</span>
+                  <span className="break-words min-w-0" style={{ color: "#a0aec0" }}>{value}</span>
+                </div>
             ))}
           </div>
           <div className="flex gap-3 mt-8">

@@ -9,7 +9,7 @@ function Contact() {
         I am currently open to new opportunities. Whether you have a position 
         in mind or just want to connect, my inbox is always open.
       </p>
-      <div className="grid grid-cols-3 gap-4 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
         {[
           {
             label: "Email",
@@ -38,7 +38,7 @@ function Contact() {
             onMouseLeave={e => (e.currentTarget.style.borderColor = "#2d3748")}
           >
             <span className="text-xs mb-2" style={{ color: "#63b3ed" }}>{label}</span>
-            <span className="text-sm" style={{ color: "#a0aec0" }}>{value}</span>
+            <span className="text-sm break-all" style={{ color: "#a0aec0" }}>{value}</span>
           </a>
         ))}
       </div>
