@@ -10,7 +10,7 @@ function About() {
           <p className="text-sm leading-relaxed mb-4" style={{ color: "#a0aec0" }}>
             I recently graduated with an AP in Computer Science (Datamatiker) 
             from UCL Vejle. I enjoy building solid, well-structured backend 
-            systems — APIs, microservices, and databases are where I feel at home.
+            systems APIs, microservices, and databases are where I feel at home.
           </p>
           <p className="text-sm leading-relaxed" style={{ color: "#a0aec0" }}>
             During my internship I worked extensively with frontend development 

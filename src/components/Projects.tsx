@@ -4,23 +4,15 @@ const projects = [
     description:
       "Personal portfolio site built with React and TypeScript. Deployed on Cloudflare Pages with a custom .dev domain.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/Freben111/dev-hjemmeside",
     live: "https://freben.dev",
   },
   {
-    title: "Project Two",
+    title: "Microservice Demo",
     description:
-      "A short description of what it does, what problem it solves and why you built it.",
-    tags: ["C#", "ASP.NET Core", "SQL Server"],
-    github: "https://github.com/yourusername/project-two",
-    live: "",
-  },
-  {
-    title: "Project Three",
-    description:
-      "A short description of what it does, what problem it solves and why you built it.",
-    tags: ["REST API", "Docker", "PostgreSQL"],
-    github: "https://github.com/yourusername/project-three",
+      "A microservices-based social media simulation built for my 4th semester exam. Architected across five services API, Forum, Post, Comment, and Workflow, using Dapr and the sidecar pattern for service-to-service communication. Designed to demonstrate distributed systems principles rather than visual polish, explored via Swagger.",
+    tags: ["C#", "ASP.Net Core", "Microservices", "Dapr", "Docker", "Swagger"],
+    github: "https://github.com/Freben111/4.SemesterProjekt",
     live: "",
   },
 ]
