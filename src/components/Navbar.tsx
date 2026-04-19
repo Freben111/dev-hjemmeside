@@ -3,10 +3,10 @@ function Navbar() {
     <nav className="fixed top-0 w-full z-50 border-b border-white/10 backdrop-blur-sm"
          style={{ backgroundColor: "rgba(15, 17, 23, 0.85)" }}>
       <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span style={{ color: "#63b3ed" }} className="text-sm font-medium">
+        <span style={{ color: "#63b3ed" }} className="text-sm font-medium shrink-0">
           freben.dev
         </span>
-        <div className="flex gap-6">
+        <div className="flex gap-4 flex-wrap justify-end">
           {["about", "projects", "skills", "contact"].map((section) => (
             <a
               key={section}
