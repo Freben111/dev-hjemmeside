@@ -15,6 +15,14 @@ const projects = [
     github: "https://github.com/Freben111/4.SemesterProjekt",
     live: "",
   },
+  {
+    title: "Sui Cura",
+    description:
+      "Redesigned and developed a Shopify webshop for Sui Cura, a Danish assistive product company. Built using the Dawn theme with custom Liquid sections, CSS styling and JavaScript for interactive components such as a video grid carousel and a reviews carousel.",
+    tags: ["Shopify", "Liquid", "JavaScript", "CSS", "Webshop"],
+    github: "",
+    live: "https://suicura.shop",
+  },
 ]
 
 function Projects() {
